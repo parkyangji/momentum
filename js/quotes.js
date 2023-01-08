@@ -7,4 +7,5 @@ const images = [
 const image = document.body;
 const imageRandom = images[Math.floor(Math.random() * images.length)];
 
-image.style.backgroundImage = `url(${imageRandom})`;
+image.style.background = `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) 
+  ,url(${imageRandom})`; // 그라데이션으로 바탕화면 어둡게 추가

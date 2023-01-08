@@ -1,3 +1,32 @@
-.hidden {
-  display: none;
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+
+#weather {
+  text-align: left;
+  font-size: small;
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h2 {
+  color: white;
+  font-size: 100px;
+  text-shadow: 0px 0px 10px #000;
+  margin: 10px 10px 50px 10px;
+}
+
+#greeting {
+  color: white;
+  margin: 10px 10px 50px 10px;
+}
+#todo-list {
+  color: white;
+  list-style: none;
 }
